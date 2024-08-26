@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;  
+    font-family: sans-serif; 
+    font-size: larger;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(77, 151, 194);
+}
+.main-contenner{
+    height: 90vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+}
+section{
+    background-color: teal;
+    flex: 0.5;
+}
+main{
+    /* background-color: teal; */
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 10px;
+    
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    width: 30%;
+    display: flex;
+    gap: 2px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(20deg);
+    
+}
